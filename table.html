@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="table.css">
+    <style>tr, th, td {
+        height: 40px;
+    }
+    table, tr, td,th{
+    border: 1px solid rgb(150, 147, 147);
+    border-collapse: collapse;
+    padding: 10px;
+    } 
+    #zorunlu_dersler{
+    background-color: rgb(196, 242, 196);
+    }
+    #zorunlu_dersler:hover{
+    background-color:rgb(196, 242, 196) ;
+    color: green;
+    }
+    #ortak_dersler{
+    background-color: rgb(126, 196, 243);
+    }
+    #ortak_dersler:hover{
+        background-color:rgb(126, 196, 243);
+        color: white;
+    }
+    </style>
+</head>
+<body style="padding-left: 90px;">
+    <h1>Bilgisayar Programciligi</h1>
+    <table style="width: 90%;">
+        <caption style=" 
+        font-size: 30px;
+        font-weight: 200;
+        padding-bottom: 15px;">1-sinif</caption>
+        <tr>
+            <th>Time</th>
+            <th>Pazartesi</th>
+            <th>Sali</th>
+            <th>Carsamba</th>
+            <th>Persembe</th>
+            <th>Cuma</th>
+        </tr>
+        <tr>
+            <th>8:00-8:45</th>
+            <td>Ayrilmis(Reserved)</td>
+            <td>Ayrilmis(Reserved)</td>
+            <td>Ayrilmis(Reserved)</td>
+            <td>Ayrilmis(Reserved)</td>
+            <td>Ayrilmis(Reserved)</td>
+        </tr>
+        <tr>
+            <th>8:55-9:40</th>
+            <td></td>
+            <td id="zorunlu_dersler">	
+                BLG-106 <br>
+                Nesne Tabanlı Programlama - I <br>
+                AYBEK ADANBAYEV<br>
+                İİBF 111
+            </td>
+            <td></td>
+            <td id="zorunlu_dersler">
+                BLG-104 <br>
+                Veri Tabanı Yönetim Sistemleri <br>
+                BAKIT ŞARŞEMBAYEV<br>
+                MYOB 131
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>9:50-10:35	</th>
+            <td id="zorunlu_dersler">
+                BLG-102 <br>
+                Grafik ve Animasyon-I<br>
+                ZAMIRGÜL KAZAKBAYEVA<br>
+                MYOB 137<br>
+            </td>
+            <td id="zorunlu_dersler">
+                BLG-106
+                <br> Nesne Tabanlı Programlama - I<br> 
+                AYBEK ADANBAYEV<br>
+                İİBF 111
+            </td>
+            <td></td>
+            <td id="zorunlu_dersler">
+                BLG-104 <br>
+                Veri Tabanı Yönetim Sistemleri <br>
+                BAKIT ŞARŞEMBAYEV<br>
+                MYOB 131
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>10:45-11:30</th>
+            <td id="zorunlu_dersler">
+                BLG-102 <br>
+                Grafik ve Animasyon-I<br> 
+                ZAMIRGÜL KAZAKBAYEVA<br>
+                MYOB 137<br>
+            </td>
+            <td id="zorunlu_dersler">
+                BLG-106<br>
+                Nesne Tabanlı Programlama - I<br>
+                AYBEK ADANBAYEV<br>
+                İİBF 111
+            </td>
+            <td></td>
+            <td id="zorunlu_dersler">
+                BLG-104 <br>
+                Veri Tabanı Yönetim Sistemleri <br>
+                BAKIT ŞARŞEMBAYEV<br>
+                MYOB 131
+            </td>
+            <td id="ortak_dersler">
+                BES-112 <br>
+                BEDEN EĞİTİMİ VE SPOR<br>
+                BAKIT ASANALİEV<br>
+                KSSB Spor sahası (kapalı)
+            </td>
+        </tr>
+        <tr>
+            <th>11:40-12:25</th>
+            <td id="zorunlu_dersler">
+                BLG-102 <br>
+                Grafik ve Animasyon-I<br>
+                ZAMIRGÜL KAZAKBAYEVA<br>
+                MYOB 137<br>
+            </td>
+            <td></td>
+            <td></td>
+            <td id="zorunlu_dersler">
+                BLG-104 <br>
+                Veri Tabanı Yönetim Sistemleri <br>
+                BAKIT ŞARŞEMBAYEV<br>
+                MYOB 131
+            </td>
+            <td id="ortak_dersler">
+                BES-112 <br>
+                BEDEN EĞİTİMİ VE SPOR<br>
+                BAKIT ASANALİEV<br>
+                KSSB Spor sahası (kapalı)
+            </td>
+        </tr>
+        <tr>
+            <th>13:30-14:15</th>
+            <td></td>
+            <td id="zorunlu_dersler">
+                BLG-108 <br>
+                Bilgisayar Ağları <br>
+                AYCARKIN SAİT KIZI<br>
+                İİBF 111
+            </td>
+            <td></td>
+            <td id="zorunlu_dersler">
+                BLG-110 <br>
+                İnternet Programcılığı-I <br>
+                BAKIT ŞARŞEMBAYEV<br>
+                MYOB 131
+            </td>
+            <td></td>
+        </tr>
+        <tr>
+            <th>14:25-15:10</th>
+            <td></td>
+            <td id="zorunlu_dersler">
+                BLG-108 <br>
+                Bilgisayar Ağları <br>
+                AYCARKIN SAİT KIZI<br>
+                İİBF 111
+            </td>
+            <td></td>
+            <td id="zorunlu_dersler">
+                BLG-110 <br>
+                İnternet Programcılığı-I <br>
+                BAKIT ŞARŞEMBAYEV<br>
+                MYOB 131
+            </td>
+            <td></td>
+        </tr>
+        <tr> <th>15:20-16:05</th>
+            <td></td>
+            <td id="zorunlu_dersler">
+                BLG-108 <br>
+                Bilgisayar Ağları <br>
+                AYCARKIN SAİT KIZI<br>
+                İİBF 111
+            </td>
+            <td></td>
+            <td id="zorunlu_dersler">
+                BLG-110 <br>
+                İnternet Programcılığı-I <br>
+                BAKIT ŞARŞEMBAYEV<br>
+                MYOB 131
+            </td>
+            <td id="ortak_dersler">
+                ING-110 <br>
+                İNGİLİZCE <br>
+                SVETLANA CEENBEKOBA<br>
+                MYOB ONLINE
+            </td>
+        </tr>
+        <tr>
+            <th>16:15-17:00</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td id="ortak_dersler">
+                ING-110 <br>
+                İNGİLİZCE <br>
+                SVETLANA CEENBEKOBA<br>
+                MYOB ONLINE
+            </td>
+        </tr>
+        <tr>
+            <th>17:10-17:55</th>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td id="ortak_dersler">
+                ING-110 <br>
+                İNGİLİZCE <br>
+                SVETLANA CEENBEKOBA<br>
+                MYOB ONLINE
+            </td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,23 @@
+
+tr, th, td {
+    height: 40px;
+}
+table, tr, td,th{
+    border: 1px solid rgb(150, 147, 147);
+    border-collapse: collapse;
+    padding: 10px;
+} 
+#zorunlu_dersler{
+    background-color: rgb(196, 242, 196);
+}
+#zorunlu_dersler:hover{
+    background-color:rgb(196, 242, 196) ;
+    color: green;
+}
+#ortak_dersler{
+    background-color: rgb(126, 196, 243);
+}
+#ortak_dersler:hover{
+    background-color:rgb(126, 196, 243);
+    color: white;
+}
